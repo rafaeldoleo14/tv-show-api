@@ -1,0 +1,42 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial';
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root{
+  --main-color: #080f28;
+}
+
+/* Estilos para el scroll del cuerpo de la página */
+body {
+  /* Hace que el scroll sea visible */
+  overflow: auto;
+  scrollbar-color: #eaeaea #888;
+  scrollbar-width: thin;
+}
+
+/* Estilos para el scroll */
+body::-webkit-scrollbar {
+  width: 12px; /* Ancho del scroll */
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #172455; /* Color de fondo del track */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #0362f6; /* Color del thumb (barra del scroll) */
+}
+
+.app-container{
+  background-color: #0362f6;
+  height: auto;
+}
+

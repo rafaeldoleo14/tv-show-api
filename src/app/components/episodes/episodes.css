@@ -1,0 +1,38 @@
+
+.episodes-container{
+    position: relative;
+    background-color: var(--main-color);
+    color: rgba(255, 255, 255, 0.813);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 15000;
+    gap: 40px;
+    padding-bottom: 5em;
+    box-shadow: -50px -50px 50px var(--main-color);
+}
+
+.season-options{
+    display: flex;
+    width: 80%;
+}
+
+.season-options p{
+    border: 1px solid #0362f6;
+    padding: 10px;
+}
+
+.season-options select{
+    background-color: #0362f6;
+    color: white;
+    padding: 10px;
+}
+
+.episodes{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minMax(180px, 1fr));
+    gap: 25px;
+    justify-items: center;
+}

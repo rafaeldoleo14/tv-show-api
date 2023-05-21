@@ -1,0 +1,21 @@
+
+.tvshow-cont a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    transition: all 0.55s ease;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.tvshow-cont a:hover{
+    transform: scale(1.1);
+}
+
+.tvshow-cont a img{
+    width: 15em;
+    height: 22em;
+    border-radius: 10px;
+}
