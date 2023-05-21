@@ -1,5 +1,6 @@
 
 import './episodesCard.css';
+import noImg from '../../../assets/no-img/no-image.jpg'
 
 export const EpisodesCard = (episodes) => {
 
@@ -7,7 +8,7 @@ export const EpisodesCard = (episodes) => {
 
   return (
     <div>
-        <img src={img} alt={name} />
+        <img src={!img ? noImg : img} alt={name} />
         <p>{name.slice(0,10)} {`${season} x ${episode}`}</p>
     </div>
   )

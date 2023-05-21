@@ -9,7 +9,7 @@ export const TvShowsCard = (shows) => {
     return (
         <Link to={`/tv-show/${id}`}>
 
-            <img src={image_thumbnail_path} 
+            <img src={!image_thumbnail_path} 
             alt={name} />
 
             <p>{name}</p>
