@@ -24,6 +24,7 @@
 
 .pagination-content button:disabled{
     background-color: gray;
+    cursor: auto;
 }
 
 .pagination-content p{

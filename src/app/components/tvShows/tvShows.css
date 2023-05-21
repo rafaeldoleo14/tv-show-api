@@ -1,5 +1,6 @@
 
 .tvshow-container{
+    position: relative;
     background-color: var(--main-color);
     color: rgba(255, 255, 255, 0.831);
     display: flex;
@@ -10,6 +11,7 @@
     box-shadow: -50px -50px 50px var(--main-color);
     padding-bottom: 3em;
     padding-top: 1em;
+    z-index: 1;
 }
 
 .tvshow-cont{
