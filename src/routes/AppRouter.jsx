@@ -18,7 +18,6 @@ export const AppRouter = () => {
 
   return (
     <>
-
         <Loader/>
           
           <Navbar/>
@@ -32,7 +31,6 @@ export const AppRouter = () => {
                   <Route path="/*" element={<Navigate to='tv-show'/>}/>
 
               </Routes>
-    
     </>
   )
 }

@@ -38,7 +38,6 @@ export const SearchField = () => {
 
             </div>
 
-
         </div>
 
     </>

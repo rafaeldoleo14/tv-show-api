@@ -1,6 +1,5 @@
 import { useSelector } from "react-redux";
 
-
 export const useGetSeasonFilter = (season = '1') => {
   
     const {singleTvShow} = useSelector(state => state.tvShow);

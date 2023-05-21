@@ -33,7 +33,6 @@ export const tvShowSlice = createSlice({
     }
 });
 
-
 // Action creators are generated for each case reducer function
 export const { 
                 getAlltvShowData, 
