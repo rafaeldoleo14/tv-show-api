@@ -55,7 +55,7 @@ header .header-content div a:hover{
     color: #080f28;
 }
 
-@media (max-width: 500px){
+@media (max-width: 600px){
 
     header .img1{
         display: inline;

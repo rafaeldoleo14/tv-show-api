@@ -8,7 +8,8 @@ export const Loader = () => {
     const {isLoading} = useSelector(state => state.tvShow);
 
     return (
-        <div className={`loader-container ${isLoading ? '' : 'hidden'}`}>
+        <div style={{zIndex: `${isLoading ? '' : '0'}`}}
+        className={`loader-container ${isLoading ? '' : 'hidden'}`}>
             <ThreeCircles
                 height="70"
                 width="70"

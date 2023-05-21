@@ -34,9 +34,3 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: #0362f6; /* Color del thumb (barra del scroll) */
 }
-
-.app-container{
-  background-color: #0362f6;
-  height: auto;
-}
-
