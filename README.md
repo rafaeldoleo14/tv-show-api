@@ -4,6 +4,17 @@ SPA using TV Shows API
 
 ----------
 
+## Herramientas o tecnologias
+
+- VS Code
+- Vite
+- React Router Dom 6
+- Redux Toolkit
+- BootStrap Icons
+
+
+----------
+
 ## Buenas practicas
 
 1. Estructura del proyecto: un componente por archivo.
