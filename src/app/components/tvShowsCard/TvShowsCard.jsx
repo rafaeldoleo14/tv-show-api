@@ -4,7 +4,7 @@ import './tvShowsCard.css';
 
 export const TvShowsCard = (shows) => {
 
-    const {id, name, image_thumbnail_path} = shows;
+    const {id, name, image_thumbnail_path} = shows; // Desestructuracion de objetos
 
     return (
         <Link to={`/tv-show/${id}`}>

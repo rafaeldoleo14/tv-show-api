@@ -25,7 +25,7 @@ export const SearchField = () => {
                 <div className='line'></div>
 
                 {
-
+                    // Si el arreglo no esta empty o vacio se itera la lista
                     searchData.length !== 0 ?
 
                     searchData && searchData?.map((data)=> (

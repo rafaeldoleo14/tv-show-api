@@ -1,10 +1,10 @@
 
 import './episodesCard.css';
-import noImg from '../../../assets/no-img/no-image.jpg'
+import noImg from '../../../assets/no-img/no-image.jpg'; // Imagen por si no llega de la API
 
 export const EpisodesCard = (episodes) => {
 
-  const {name, episode, season, img} = episodes;
+  const {name, episode, season, img} = episodes; // Desestructuracion de objeto
 
   return (
     <div>

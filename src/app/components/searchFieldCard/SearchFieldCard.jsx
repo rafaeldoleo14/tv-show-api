@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 export const SearchFieldCard = (data) => {
 
-    const {id, name, image_thumbnail_path } = data;
+    const {id, name, image_thumbnail_path } = data; // Desestructuracion de objetos
 
     return (
         <Link to={`/tv-show/${id}`} className="searchBox-content">

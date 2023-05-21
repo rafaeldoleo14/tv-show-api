@@ -1,5 +1,6 @@
 import { getAlltvShowData, getSingleTvShow, startIsLoading, startSearchData } from "./tvShowSlice";
 
+// Metodo obtener todos los tv show
 export const startGetTvShowData = (pagination = 1)=>{
 
     return async (dispatch)=>{
@@ -24,8 +25,8 @@ export const startGetTvShowData = (pagination = 1)=>{
 
 }
 
+// Metodo resultado de la busqueda mediante un input
 export const startSearchingData = (value = '', pagination = 1)=>{
-
 
     return async (dispatch)=>{
 
@@ -46,6 +47,7 @@ export const startSearchingData = (value = '', pagination = 1)=>{
 
 }
 
+// Metodo obtener un tv show en especifico mediante su id
 export const startGetSingleTvShow = (value = '')=>{
 
     return async (dispatch)=>{

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 
-
+// Custom hook para tener data dinamica e aleatoria para mostrarla en la ruta principal
 export const useRandomData = () => {
  
     const {tvShowData, isLoading} = useSelector(state => state.tvShow);

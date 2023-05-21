@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-
+// Custom hook para el manejo del select de las temporadas
 export const useHandleSelect = () => {
   
     const [selectValue, setSelectValue] = useState('1');

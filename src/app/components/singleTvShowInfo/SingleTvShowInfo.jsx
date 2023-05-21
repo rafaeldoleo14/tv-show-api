@@ -8,15 +8,15 @@ import './singleTvShowInfo.css';
 
 export const SingleTvShowInfo = () => {
 
-    const {id} = useParams();
+    const {id} = useParams(); // Capturar el parametro proporcionado en la url
     const dispatch = useDispatch();
     const {singleTvShow} = useSelector(state => state.tvShow);
 
-    const getSingleTvShow = ()=>{
+    const getSingleTvShow = ()=>{ // Metodo para despachar la action de obtener tv show
         dispatch(startGetSingleTvShow(id));
     }
 
-    useEffect(()=>{
+    useEffect(()=>{ // Cuando se monte el componente se dispara el efecto que llama el metodo getSingleTvShow()
         getSingleTvShow();
     },[])
 
@@ -24,6 +24,7 @@ export const SingleTvShowInfo = () => {
     
     <HeaderLayout>
 
+        {/* (?) --> se utiliza por si la propiedad no existe, typescript resuelve eso :) */}
         <img src={singleTvShow?.image_thumbnail_path} alt="" className="img1"/>
 
         <div className="header-content">

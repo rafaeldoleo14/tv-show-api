@@ -3,6 +3,7 @@ import { ThreeCircles } from  'react-loader-spinner'
 import './loader.css'
 import { useSelector } from 'react-redux';
 
+// Componente loader, agrega experiencia de usuario
 export const Loader = () => {
 
     const {isLoading} = useSelector(state => state.tvShow);

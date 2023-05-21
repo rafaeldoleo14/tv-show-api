@@ -6,6 +6,8 @@ import { Loader } from "../app/components/loader/Loader"
 import { useEffect } from "react"
 import { SingleTvShowPage } from "../app/pages/singleTvShowPage/SingleTvShowPage"
 
+// Componente donde se centralizan las rutas
+// Version de react router dom: 6, se usar la 6.4 pero me gusta mas la anterior AHHAHAAHHA
 export const AppRouter = () => {
 
     const {startDataComponent, pagination} = useStartData();

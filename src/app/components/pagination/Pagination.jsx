@@ -19,7 +19,7 @@ export const Pagination = () => {
         <div className='pagination-content'>
 
             <button 
-              disabled={pagination <= 1} 
+              disabled={pagination <= 1} // 1 --> numero minimo del paginado
               onClick={()=> counter(-1)}> 
               <i className="bi bi-arrow-left-circle-fill"></i> 
             </button>
@@ -27,7 +27,7 @@ export const Pagination = () => {
             <p>{pagination}</p>
 
             <button
-              disabled={pagination >= 1182} 
+              disabled={pagination >= 1182} // 1182 --> numero maximo del paginado
               onClick={()=> counter(1)}> 
               <i className="bi bi-arrow-right-circle-fill"></i> 
             </button>

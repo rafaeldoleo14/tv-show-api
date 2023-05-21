@@ -1,2 +1,3 @@
-# tv-show-api
+# Tv Show API
+
 SPA using TV Shows API
