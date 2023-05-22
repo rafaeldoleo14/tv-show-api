@@ -17,7 +17,7 @@ export const Header = () => {
 
                 <div className="header-content">
 
-                    <img src={data?.image_thumbnail_path} alt="" className="img2"/>
+                    <img src={data?.image_thumbnail_path} alt="" className="img2 animate__animated animate__fadeInLeft"/>
 
                     <div>
                         <h1>{data?.name}</h1>
